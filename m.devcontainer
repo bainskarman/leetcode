@@ -1,0 +1,10 @@
+{
+  "name": "Python Leetcode",
+  "image": "python:3.8",
+  "extensions": ["ms-python.python"],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  },
+  "forwardPorts": [8000],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
